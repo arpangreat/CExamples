@@ -1,6 +1,7 @@
 #include "stdio.h"
 int main() {
   int num1, num2, choice;
+  char ch;
   printf("Enter the first number: ");
   scanf("%d", &num1);
   printf("\n");
