@@ -1,5 +1,6 @@
-#include "first.h"
 #include <stdio.h>
+
+void printer() { printf("Hello, World!\n"); }
 
 int main() {
   int a = 1;
@@ -25,6 +26,8 @@ int main() {
       }
     }
   }
+
+  printer();
 
   return 0;
 }
