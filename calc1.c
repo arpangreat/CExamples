@@ -1,8 +1,9 @@
-// #include <cstdio>
+#include <cstdio>
 
 int main() {
   int num1, num2, choice;
-  char ch;
+  char ch = '\0';
+  printf("%d", ch);
   printf("Enter the first number: ");
   scanf("%d", &num1);
   printf("\n");
